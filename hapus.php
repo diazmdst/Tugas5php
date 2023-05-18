@@ -7,17 +7,15 @@ if(!isset($_SESSION["login"])){
 
 require 'function.php';
 $id = $_GET["id"];
+
 if(hapus($id)> 0 ){
-    echo "<script> 
+    echo "<script>
     alert('data berhasil dihapus!');
-    document.location.href = 'index.php';
+    window.location.href = 'index.php';
   </script>";
 }else{
-    echo "<script> 
+    echo "<script>
     alert('data gagal dihapus!');
-    document.location.href = 'index.php';
+    window.location.href = 'index.php';
   </script>";
 }
-
-
-?>

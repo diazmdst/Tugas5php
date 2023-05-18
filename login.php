@@ -63,7 +63,6 @@ if (isset($_POST["login"])) {
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>LOGIN</title>
-    <link href="css/style.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
 </head>
 
