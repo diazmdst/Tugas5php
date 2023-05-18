@@ -66,7 +66,7 @@ $data = query("SELECT * FROM konten");
             <td><?= $dt["list"]; ?></td>
             <td>           
               <a href="ubah.php?id=<?= $dt["id"]; ?>"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Edit</button></a>
-              <a href="hapus.php?id=<?= $dt["id"]; ?>" onclick="return confirm('Yaking ingin menghapus data ini?');"><button type="button" class="btn btn-danger">Delete</button></a>
+              <a href="hapus.php?id=<?= $dt["id"]; ?>" onclick="return confirm('Yaking ingin menghapus data ini?');"><button type="button" class="btn btn-danger">Hapus</button></a>
             </td>
           </tr>
           <?php $i++; ?>
